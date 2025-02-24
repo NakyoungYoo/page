@@ -180,6 +180,21 @@ footer {
     justify-content: left;
 }
 
+.film_gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.film_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+}
+
+
 .image-entry {
     width: calc(50% - 10px);
     box-sizing: border-box;
@@ -292,6 +307,19 @@ footer {
 .project img {
     width: 100%;
     max-width: 500px;
+    height: auto;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.film_project {
+    position: relative;
+    overflow: hidden;
+}
+
+.film_project img {
+    width: 100%;
+    max-width: 300px;
     height: auto;
     display: block;
     transition: 0.3s ease;
