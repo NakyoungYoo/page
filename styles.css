@@ -177,7 +177,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .image-entry {
@@ -291,7 +291,7 @@ footer {
 
 .project img {
     width: 100%;
-    max-width: 250px;
+    max-width: 500px;
     height: auto;
     display: block;
     transition: 0.3s ease;
