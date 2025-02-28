@@ -230,7 +230,7 @@ a:hover {
     text-align: left;
 }
 .full-image-entry {
-    width: calc(80% - 10px);
+    width: 100%;
     box-sizing: border-box;
     text-align: center;
 }
