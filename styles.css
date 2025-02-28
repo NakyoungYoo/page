@@ -227,6 +227,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    text-align: left;
 }
 .full-image-entry {
     width: calc(80% - 10px);
@@ -373,4 +374,33 @@ a:hover {
 .project-details {
     max-width: 600px; /* Limit the width of text for readability */
     line-height: 1.8;
+}
+
+.drawing-gallery img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    position:relative;
+}
+
+.drawing-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    text-align: left;
+}
+.drawing-image-entry {
+    text-align: left;
+    position:relative;
+    overflow: hidden;
+}
+
+.drawing-image-entry  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    transition: 0.3s ease;
 }
