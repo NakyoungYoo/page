@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Yaho! - Nakyoung Yoo</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Nakyoung Yoo</a></h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="film.html" class="active">Film</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="drawing.html">Drawing</a></li>
+                <li><a href="https://drive.google.com/file/d/1bWrrJh5ez4rrCRTg8jnBQZwL3Gs7EjHa/view?usp=share_link" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Modal 구조 -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" src="" alt="큰 이미지">
+    </div>
+
+
+        <section>
+            <h1>Yaho! (2025)</h1>
+            <br>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1089196477?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="야호! (Yaho!)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+           </div>
+           <br>
+           <br>
+           <p>The two main characters are alone in a forest. They reach out each other in their own way. Upon hearing a shout from the opposite mountain, the other answers with a paper plane.</p>
+           <br>
+           <p>The two protagonists living their lives alone find each other’s existence in an indirect way, which is echoing, and an direct medium, which is a paper plane. We identify each other in direct and indirect way and live together.</p>
+           
+           <br>
+
+           <h2>Character Design</h2>
+           <div class="gallery">
+                    <div class="image-entry">
+                        <img src="Cubie01.png" alt="Description of Image 1"> 
+                    </div>
+                    
+                    <div class="image-entry">
+                        <img src="Cubie02.png" alt="Description of Image 2"> 
+                    </div>
+
+                    <div class="image-entry">
+                        <img src="Cubie03.png" alt="Description of Image 2"> 
+                    </div>
+
+                    <div class="image-entry">
+                        <img src="Sphere01.png" alt="Description of Image 2"> 
+                    </div>
+                    <div class="image-entry">
+                        <img src="Sphere02.png" alt="Description of Image 2"> 
+                    </div>
+                    <div class="image-entry">
+                        <img src="Sphere03.png" alt="Description of Image 2"> 
+                    </div>
+                </div>
+                <br>
+
+                <p>Our goal was to create a stop-motion style using 3D software. We focused on three main aspects: achieving a stop-motion feel through stoppy animation, proper lighting, and realistic textures. Our texture artist crafted a beautiful clay-like texture using Substance 3D Sampler. To simulate stop-motion animation, we baked our animations into 12 frames and rendered them at 24 frames per second.</p>
+                <br>
+
+             <h2>Room Design</h2>
+               <div class="gallery">
+                    <div class="image-entry">
+                        <img src="room-concept.png" alt="Description of Image 1"> 
+                    </div>
+                    
+                    <div class="image-entry">
+                        <img src="room-rendered.png" alt="Description of Image 2"> 
+                    </div>
+                </div>
+
+            <br>
+
+            <h2>Still Cuts</h2>
+            <div class="gallery">
+                    <div class="image-entry">
+                        <img src="yaho_still1.png" alt="Description of Image 1"> 
+                    </div>
+                    
+                    <div class="image-entry">
+                        <img src="yaho_still2.png" alt="Description of Image 2"> 
+                    </div>
+                    <div class="image-entry">
+                        <img src="yaho_still3.png" alt="Description of Image 3"> 
+                    </div>
+                    
+                    <div class="image-entry">
+                        <img src="yaho_still4.png" alt="Description of Image 4"> 
+                    </div>
+                    <div class="image-entry">
+                        <img src="yaho_still5.png" alt="Description of Image 5"> 
+                    </div>
+                </div>
+            <br>
+
+            <p>After preparing all the props, we used Unreal Engine to create the forest. UE's fast rendering, realistic textures, and simulations enhanced the overall look of our film. We also created custom tree textures to resemble handcrafted stop-motion props.</p>
+            <br> 
+
+            <p>For the room, we used Maya with Redshift for rendering. We worked hard to match the rendered look across different software to ensure consistency.</p>
+            <br>
+
+            <p>We rigged and animated our characters in Maya, using a low-poly landscape exported from UE as a set reference. To transfer the animated character data into UE, we used two methods: Livelink and USD. Depending on the complexity of each shot, we chose the most efficient method. This approach allowed us to complete the film quickly and effectively.</p>
+            <br>
+            <br>
+
+
+           <h2>Credits</h2>
+            <p>Director | Nakyoung Yoo</p>
+            <p>Layout | Nakyoung Yoo</p>
+            <p>Editing | Nakyoung Yoo</p>
+            <p>Modeling, Texturing | Shimon Oberst</p>
+            <p>Set Design | Nakyoung Yoo</p>
+            <p>Animation | Nakyoung Yoo, Leo Taheri, Kaiser Chou</p>
+            <p>Rigging | Kaiser Chou</p>
+            <p>Lighting | Nakyoung Yoo</p> 
+            <p>Sound Design | Matthew L. Thomas, Todd LeBlanc</p> 
+            <p>Voice | Leo Taheri</p> 
+
+
+        </section>
+    </main>
+    <footer>
+            
+        </footer>
+
+<script>
+  // 모달, 이미지, 닫기 버튼 선택
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImage");
+  const closeBtn = document.getElementsByClassName("close")[0];
+
+  // 모든 gallery 이미지에 클릭 이벤트 등록
+  document.querySelectorAll('.gallery img').forEach(img => {
+    img.addEventListener('click', () => {
+      modal.style.display = "block"; // 모달 열기
+      modalImg.src = img.src; // 클릭한 이미지의 src를 큰 이미지에 넣기
+      modalImg.alt = img.alt; // alt 텍스트도 넣기
+    });
+  });
+
+  // 닫기 버튼 클릭 시 모달 닫기
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+  }
+
+  // 모달 바깥 클릭 시 닫기
+  window.onclick = (event) => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</body>
+
+</html>
